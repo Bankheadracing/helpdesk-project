@@ -1,0 +1,9 @@
+[
+  {"ticket_id":"INC-1001","subject":"Cannot sign in","description":"My Okta MFA prompt is failing and I cannot log in.","impact":"single_user"},
+  {"ticket_id":"INC-1002","subject":"VPN problem","description":"Multiple users cannot connect to VPN.","impact":"department"},
+  {"ticket_id":"INC-1003","subject":"Broken monitor","description":"My laptop monitor is flickering.","impact":"single_user"},
+  {"ticket_id":"INC-1004","subject":"Outlook crashes","description":"The Outlook application keeps crashing.","impact":"single_user"},
+  {"ticket_id":"INC-1005","subject":"Service issue","description":"Production down - company-wide outage.","impact":"organization"},
+  {"ticket_id":"INC-1006","subject":"Access and laptop","description":"I cannot sign in to my new laptop and need a new monitor.","impact":"single_user"},
+  {"ticket_id":"INC-1007","subject":"General question","description":"Please contact me regarding an unusual request.","impact":"single_user"}
+]
