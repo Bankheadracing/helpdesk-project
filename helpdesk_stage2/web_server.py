@@ -1,4 +1,4 @@
-"""Local Stage 2 dashboard API; stdlib only. Not internet-exposed production service."""
+"""Local  dashboard API"""
 from __future__ import annotations
 import json
 import os
