@@ -52,7 +52,7 @@ All submitted tickets are saved in `data/tickets.db`. The original `helpdesk.py`
 - Priority 1 and ambiguous tickets require human review; the app never resets passwords or changes access.
 - Keyword routing is explainable and testable. No claim of AI or machine learning is made.
 - Input lengths and impact values are validated server-side; SQL queries are parameterized.
-- The server binds to `127.0.0.1` only. **It has no login/authentication, RBAC, CSRF protection or production-ready audit controls.** Use test data only, never expose it to the public internet.
+- The server binds to `127.0.0.1` only. **It has no login/authentication**
 - SQLite provides local persistence but is not meant as the final enterprise storage layer.
 
 ## Next stage
