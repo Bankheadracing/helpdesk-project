@@ -40,5 +40,4 @@ Review `output/triaged_tickets.csv`, `output/triaged_tickets.json` and `output/s
 - Add ServiceNow/Jira REST integration, Outlook intake, duplicate detection, SLA policies, dashboards, and monitoring
 - Add data protection, access controls and review for personal information before processing real tickets
 
-## Assumptions
-Keyword rules are a prototype, not a trained classifier. Classification accuracy has not been benchmarked. The input is synthetic and output is written locally. Rerunning overwrites output files; production should implement idempotency and a durable event log.
+
