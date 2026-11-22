@@ -1,6 +1,6 @@
 # OpsDesk — : IT Help Desk Ticket Automation
 
-A local, runnable web dashboard built on the original Stage 1 ticket-triage engine. **No paid services, third-party Python packages, or API keys required.**
+A local, runnable web dashboard built on the ticket triage rules.
 
 ## Run it
 
