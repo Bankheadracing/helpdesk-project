@@ -8,15 +8,17 @@ IT service desks spend time manually reading, prioritizing, and assigning incomi
 ## Process
 Ticket intake (JSON) → validate → rule-based classification → priority assignment → team routing or human review → JSON/CSV results and metrics.
 
-## Run
-From the project directory, with Python 3.9+:
+## Run it
+
+Requires Python 3.9+.
 
 ```bash
-python3 helpdesk.py --input data/sample_tickets.json --output output
-python3 -m unittest discover -s tests -v
+cd helpdesk_stage2
+python3 web_server.py
 ```
 
-Review `output/triaged_tickets.csv`, `output/triaged_tickets.json` and `output/summary.json`.
+Open **http://127.0.0.1:8000** in a browser. Press `Ctrl+C` to stop the server.
+
 
 ## Demonstration
 1. Show a manually submitted ticket such as `INC-1001` (Okta MFA issue).
